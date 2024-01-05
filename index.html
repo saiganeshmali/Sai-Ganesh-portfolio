@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiganesh-portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Poppins'>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation-content">
+            <div class="right"><img src="name_logo.png" alt="Sai Ganesh Reddy" width="200px"></div>
+            <div class="left">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="LeftSection">
+                My name is <span class="blue">Sai Ganesh Reddy</span>
+                <div>I'm an Aspiring AI & ML Engineer</div>
+                <div>With more than 12 Open Source Contributions</div>
+                <div>I am a</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn" id="download_button"> Download Resume </button>
+                    <button class="btn" onclick="location.href='https://github.com/saiganeshmali'"> Github </button>
+                </div>
+            </div>
+            <div class="RightSection">
+                <img src="removebg.png" alt="Self Image">
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+
+
+        var typed = new Typed('#element', {
+            strings: ['Enthusiast', 'Learner', 'Developer','Student'],
+            typeSpeed: 100,
+            loop: true,
+            backDelay: 140,
+            backSpeed: 90,
+        });
+    </script>
+
+    <footer>
+        <div class="footerrights">
+            Copyright &#169;Saiganeshportfolio.com | All rights reserved
+        </div>
+    </footer>
+</body>
+
+</html>
